@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: #2a7db8;
+  background-image: linear-gradient(135deg, #2a7db8 0%, #9599e2 100%);
+}
+
+.navbar {
+  background: rgb(45, 44, 52);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(45, 44, 52, 1) 5%,
+    rgba(26, 26, 69, 1) 26%,
+    rgba(8, 109, 130, 0.9822128680573792) 76%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(45, 44, 52, 1) 5%,
+    rgba(26, 26, 69, 1) 26%,
+    rgba(8, 109, 130, 0.9822128680573792) 76%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(45, 44, 52, 1) 5%,
+    rgba(26, 26, 69, 1) 26%,
+    rgba(8, 109, 130, 0.9822128680573792) 76%
+  );
+  line-height: 60px;
+  color: white;
+  vertical-align: middle;
+}
+.title-nav {
+  margin-left: 30px;
+}
+
+.title-card,
+.title-cart {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-grid {
+  display: inline-block;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  margin: 10px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.img-card {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.product-card {
+  margin-top: 20px;
+}
+
+.button-card {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: inline-block;
+}
+.button-card:hover {
+  background-position: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.prod-in-cart, .price-total {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #9599e2;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+.price-total {
+  justify-content: space-around;
+}
